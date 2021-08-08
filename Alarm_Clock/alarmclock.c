@@ -31,10 +31,10 @@ void alarmclockwin()
 	
 	printf("Current Time: [%02d:%02d] --> 24H Format", hour, minute);
 	
-		printf("\n\nhour: ");
-		scanf("%d",&inputhour);
-		printf("\nminutes: ");
-		scanf("%d",&inputmin);
+			printf("\n\nhour: ");
+			scanf("%d",&inputhour);
+			printf("\nminutes: ");
+			scanf("%d",&inputmin);
 	
 	printf("\nyou can minimize but do not close this tab!");
 	
