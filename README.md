@@ -1,2 +1,2 @@
 # C_Projects
-Some of my C projects.
+Some of my own C projects.
