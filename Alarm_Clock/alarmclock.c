@@ -31,12 +31,12 @@ void alarmclockwin()
 	
 	printf("Current Time: [%02d:%02d] --> 24H Format", hour, minute);
 	
-			printf("\n\nhour: ");
+			printf("\n\nHour: ");
 			scanf("%d",&inputhour);
-			printf("\nminutes: ");
+			printf("\nMinutes: ");
 			scanf("%d",&inputmin);
 	
-	printf("\nyou can minimize but do not close this tab!");
+	printf("\nYou can minimize but do not close this tab!");
 	
 	while (inputhour == hour || inputhour != hour && inputmin == minute || inputmin != minute)
 	{ 
@@ -49,14 +49,14 @@ void alarmclockwin()
 		{
 			GetLocalTime(&t);
 			system("cls");
-			printf("\nTHE TIME IS %02d:%02d WAKE UPPP!\n", hour, minute);
+			printf("\nTHE TIME IS %02d:%02d WAKE UP!\n", hour, minute);
 			PlaySound(TEXT("alarm.wav"),NULL,SND_SYNC);
 			MessageBox(0,"WAKE UP!", "ALARM CLOCK", MB_OK);
 			break;
 		}
 	}
 }
-
+ 
 
 void alarmclocklin()
 {
